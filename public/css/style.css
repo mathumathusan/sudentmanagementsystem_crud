@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgb(10, 112, 138);
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+height: 1000px;
+width: 800px;
+background-color: azure;
+margin: 0 auto;
+}
+
+h3{
+    font-size: 25px;
+    color: tomato;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+table{
+    width: 100%;
+    margin-top: 2px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+
+table td{
+    border: 1px solid#afafaf;
+}
+
+thead td{
+    padding: 5px;
+    background-color: lightslategray;
+    color: white;
+}
+
+
+tbody td{
+    padding:5px ;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(229,231,233);
+}
+
+.edit,.delete,.addbtn{
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    width: 45px;
+    padding: 3px;
+    text-align: center;
+    display: block;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.addbtn{
+    width: 60px;
+    padding: 5px;
+    margin-right:15px;
+    background-color: rgb(2, 32, 22);
+    margin-top: 1px;
+}
+
+.delete{
+    background-color: red;
+}
+
+.form-group{
+    margin-top: 10px;
+    padding:5px;
+    
+   }
+   .form-group label,.form-group input{
+     display: block;
+   }
+    
+   button{
+     color:white;
+     padding:2px 10px 2px 10px;
+     border:none;
+     border-radius: 3px;
+     background-color: rgb(13, 61, 4);
+     font-size: 15px;
+    
+   }
+
+   .alert{
+    display: block;
+    padding: 5px;
+    background: forestgreen;
+    border-radius: 3px;
+    height: 20px;
+    color:white;
+    padding: 25px;
+  }
+   
+  input{
+    font-size: 18px;
+  }
+
+
+
+
